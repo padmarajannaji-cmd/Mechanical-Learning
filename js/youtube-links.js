@@ -6,9 +6,9 @@
    ======================================================== */
 
 const youtubeData = {
-    "engineering-mechanics": {
-        title: "Engineering Mechanics",
-        description: "Learn the fundamentals of statics and dynamics applied to engineering systems.",
+    "Career-Guidance": {
+        title: "Career-Guidance",
+        description: "Career guidance helps students identify their interests, strengths, and career goals while exploring suitable higher-education and employment opportunities",
         playlistUrl: "https://youtube.com/playlist?list=PLOn-eyz2WbmzYICMEdQhcRYVEfr_EINUw&si=EjZGEnyBD5klcwJl"
     },
     "python-programming": {
