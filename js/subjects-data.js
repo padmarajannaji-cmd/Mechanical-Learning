@@ -7,20 +7,13 @@ const subjectsData = [
         title: "Programming concepts of mechanical engineering",
         icon: "fa-brands fa-python",
         description: "Scripting, automation, and programming logic for mechanical applications.",
-        pdfLink: "pdfs/Lab Week 1.pdf",
-        pdfLink: "pdfs/Week2_Python_Lab_Manual.pdf",
-        pdfLink: "pdfs/Week3_Python_Lab_Manual updated.pdf",
-        pdfLink: "pdfs/Week4_Python_Lab_Manual.pdf"
-    
+        notesLink: "pdf/Lab Week 1.pdf"
     },
     {
         title: "Concepts of Mechanical engineering -1",
         icon: "fa-solid fa-cogs",
         description: "Fundamental principles and basic concepts of mechanical engineering.",
-        notesLink_week1: "pdfs/Week 1 Mechanical_Engineering_Fundamentals.pdf",
-        notesLink_week2: "pdfs/Week2_Ferrous_Engineering_Materials.pdf",
-        notesLink_week3: "pdfs/NonFerrousMetals--1.pdf"
-
+        notesLink: "pdf/Week 1 Mechanical_Engineering_Fundamentals.pdf"
     },
     {
         title: "Career guidance",
