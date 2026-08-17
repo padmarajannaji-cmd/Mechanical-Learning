@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mechanical Learning Corner - Educational portal for Mechanical Engineering diploma students.">
+    <title>Mechanical Learning Corner | Home</title>
+
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fa-solid fa-gear text-primary me-2"></i>MechLearning Corner
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="subjects.html">Subjects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="youtube.html">YouTube Learning</a></li>
+                    <li class="nav-item"><a class="nav-link" href="notes.html">Notes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="downloads.html">Downloads</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://mechanical-engineering-unit-converter-calculator.ai.studio/" target="_blank">Unit Converter <i class="fa-solid fa-external-link-alt small ms-1"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4 animate-fade-in">Welcome to Mechanical Learning Corner</h1>
+            <p class="lead mb-4 animate-fade-in-delayed">Your ultimate resource for Mechanical Engineering diploma studies. Access notes, subjects, and curated YouTube lectures all in one place.</p>
+            
+            <!-- Quick Search Bar -->
+            <div class="row justify-content-center animate-fade-in-delayed">
+                <div class="col-md-6">
+                    <form class="d-flex" action="subjects.html" method="GET">
+                        <input class="form-control form-control-lg me-2 rounded-pill" type="search" placeholder="Search subjects (e.g. Thermodynamics, CAD)..." aria-label="Search" id="searchInput">
+                        <button class="btn btn-primary rounded-pill px-4" type="submit"><i class="fa-solid fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Updates Section -->
+    <section class="py-3 bg-light border-bottom">
+        <div class="container d-flex align-items-center">
+            <span class="badge bg-danger me-3 px-3 py-2">NEW</span>
+            <marquee behavior="scroll" direction="left" class="mb-0 fw-medium text-secondary">
+                Latest Python Programming for Mechanical Engineers lecture added! | New pyq papers for Theory of Machines uploaded in Downloads.
+            </marquee>
+        </div>
+    </section>
+
+    <!-- Featured Subjects Preview -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold section-title">Popular Subjects</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <!-- Subject Card 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm subject-card">
+                        <div class="card-body text-center">
+                            <div class="icon-box mb-3 text-primary">
+                                <i class="fa-solid fa-cogs fa-3x"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Engineering Mechanics</h5>
+                            <p class="card-text text-muted">Learn the fundamentals of statics and dynamics applied to engineering systems.</p>
+                            <a href="subjects.html" class="btn btn-outline-primary btn-sm">Explore Subject</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Subject Card 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm subject-card">
+                        <div class="card-body text-center">
+                            <div class="icon-box mb-3 text-primary">
+                                <i class="fa-solid fa-temperature-full fa-3x"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Thermal Engineering</h5>
+                            <p class="card-text text-muted">Master concepts of heat transfer, thermodynamics, and energy conversion.</p>
+                            <a href="subjects.html" class="btn btn-outline-primary btn-sm">Explore Subject</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Subject Card 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm subject-card">
+                        <div class="card-body text-center">
+                            <div class="icon-box mb-3 text-primary">
+                                <i class="fa-brands fa-python fa-3x"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Python for Engineers</h5>
+                            <p class="card-text text-muted">Automation and scripting tailored specifically for mechanical applications.</p>
+                            <a href="subjects.html" class="btn btn-outline-primary btn-sm">Explore Subject</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="subjects.html" class="btn btn-primary px-4 py-2">View All Subjects <i class="fa-solid fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Access Section (YouTube & Downloads) -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-3">Learn visually with our YouTube Integration</h2>
+                    <p class="text-muted mb-4">We've linked dedicated YouTube playlists for every subject. Access high-quality lectures curated specifically for diploma students without leaving the platform.</p>
+                    <a href="youtube.html" class="btn btn-danger px-4 py-2"><i class="fa-brands fa-youtube me-2"></i> Go to YouTube Learning</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <a href="downloads.html" class="text-decoration-none">
+                                <div class="p-4 bg-white shadow-sm rounded text-center hover-lift">
+                                    <i class="fa-solid fa-file-pdf text-danger fa-2x mb-2"></i>
+                                    <h6 class="text-dark fw-bold mb-0">Notes & PPTs</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="downloads.html" class="text-decoration-none">
+                                <div class="p-4 bg-white shadow-sm rounded text-center hover-lift">
+                                    <i class="fa-solid fa-flask text-success fa-2x mb-2"></i>
+                                    <h6 class="text-dark fw-bold mb-0">Lab Manuals</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="downloads.html" class="text-decoration-none">
+                                <div class="p-4 bg-white shadow-sm rounded text-center hover-lift">
+                                    <i class="fa-solid fa-clipboard-question text-warning fa-2x mb-2"></i>
+                                    <h6 class="text-dark fw-bold mb-0">Previous Papers</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="downloads.html" class="text-decoration-none">
+                                <div class="p-4 bg-white shadow-sm rounded text-center hover-lift">
+                                    <i class="fa-solid fa-book-open text-primary fa-2x mb-2"></i>
+                                    <h6 class="text-dark fw-bold mb-0">Assignments</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Interactive Unit Converter Tool Section -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="card bg-gradient text-white border-0 shadow-lg rounded-4 p-4 p-md-5" style="background: linear-gradient(135deg, #0d6efd 0%, #0099ff 100%);">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-4 mb-lg-0">
+                        <span class="badge bg-warning text-dark mb-2 px-3 py-1 fw-bold">ONLINE TOOL</span>
+                        <h2 class="fw-bold mb-3">Mechanical Engineering Unit Converter</h2>
+                        <p class="lead mb-0 text-white-50">Quickly convert pressure, stress, power, torque, and other essential mechanical units instantly online.</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="https://mechanical-engineering-unit-converter-calculator.ai.studio/" target="_blank" class="btn btn-light btn-lg px-4 py-3 fw-bold text-primary shadow">
+                            <i class="fa-solid fa-calculator me-2"></i> Launch Calculator
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <!-- About -->
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-gear text-primary me-2"></i>MechLearning</h5>
+                    <p class="text-muted small">A dedicated platform providing notes, resources, and video lectures for Mechanical Engineering diploma students.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled text-muted small">
+                        <li class="mb-2"><a href="subjects.html" class="text-decoration-none text-muted footer-link">All Subjects</a></li>
+                        <li class="mb-2"><a href="youtube.html" class="text-decoration-none text-muted footer-link">YouTube Learning</a></li>
+                        <li class="mb-2"><a href="downloads.html" class="text-decoration-none text-muted footer-link">Study Materials</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-decoration-none text-muted footer-link">Contact Faculty</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Info & Socials -->
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">Connect With Us</h5>
+                    <p class="text-muted small mb-2"><i class="fa-solid fa-envelope me-2 text-primary"></i> padmaraj467@gmail.com</p>
+                    <div class="mt-3">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="text-center text-muted small">
+                &copy; <span id="currentYear"></span> Mechanical Learning Corner. All Rights Reserved.| Developed by <span class="text-primary fw-bold">Padmaraj Annaji</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
